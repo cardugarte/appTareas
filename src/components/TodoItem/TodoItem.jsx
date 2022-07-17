@@ -2,9 +2,7 @@ import React from 'react';
 import './TodoItem.css'
 
 function TodoItem(props) {
-  const onDelete = () => {
-    console.log('se borró con éxito la tarea', props.text)
-  }
+
 
   return (
     <li className="TodoItem">
